@@ -75,10 +75,8 @@ body {
 
 .sub-one{
   padding: 8px 12px 8px 12px;
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
+ 
+  border: 1px solid red;
   font-size: 16px;
  width: 229px;
  height: 35px;
@@ -87,6 +85,10 @@ body {
   border-radius: 40px;
   margin-bottom: 16px;
 }
+
+
+
+
 
 
 .banner-text h1{
@@ -118,6 +120,8 @@ body {
   font-weight: semi-bold;
   width: 251px;
   height:52px;
+  display: flex;
+  align-items: center;
   background-color: #469165;
   color: #ffffff;
   padding: 12px 16px 12px 16px;
@@ -133,6 +137,8 @@ body {
   font-weight: semi-bold;
   width: 198px;
   height:52px;
+  display: flex;
+  align-items: center;
   background-color: transparent;
   color: #FFFFFF;
   padding: 12px 16px 12px 16px;
@@ -219,9 +225,21 @@ margin-bottom: 120px;
   margin: 120px;
   padding: 12px;
  display: flex;
-flex-direction: row;
-justify-content: flex-start;
+ align-items: center;
+ justify-content: center;
+/* flex-direction: row; */
+/* justify-content: flex-start; */
 gap: 60px;
+ /* border:1px solid red; */
+
+  }
+
+  .brain-contant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:1px solid red; */
+    gap: 35px;
   }
 
 
@@ -263,8 +281,6 @@ gap: 60px;
 /* Challange part  */
 
 .clg-container{
- 
-  
   height: 506px;
   width: 100%;
   background-color: #FFFFFF;
@@ -283,6 +299,9 @@ gap: 60px;
   padding: 64px 120px 64px 120px;
   border-radius: 6px;
 }
+
+
+
 
 
 .clg-container .clg-contant h4{
@@ -305,6 +324,10 @@ gap: 60px;
   width: 194px;
   height: 52px;
   padding: 12px 16px 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background-color: #469165;
   color: #FFFFFF;
   border-radius: 6px;
@@ -316,3 +339,35 @@ gap: 60px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.445)  ;
   cursor: pointer;
 }
+
+
+
+/* footer section style  */
+
+.f-container{
+  padding: 120px 120px 30px 120px;
+  background-color: #001931;
+}
+
+.f-container .f-contant{
+  color: #FFFFFF;
+
+  
+}
+.f-container .f-contant .logo-icon{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+  
+}
+
+.copy-write{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: regular;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
