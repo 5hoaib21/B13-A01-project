@@ -11,6 +11,15 @@ body {
   font-optical-sizing: auto;
 }
 
+
+.btn:hover{
+  
+  opacity: 0.8;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
 /* navigation bar style  */
 
 .nav-container{
@@ -239,7 +248,7 @@ gap: 60px;
     align-items: center;
     justify-content: center;
     /* border:1px solid red; */
-    gap: 35px;
+    gap: 45px;
   }
 
 
@@ -324,20 +333,16 @@ gap: 60px;
   width: 194px;
   height: 52px;
   padding: 12px 16px 12px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   background-color: #469165;
   color: #FFFFFF;
   border-radius: 6px;
   font-size: 16px;
   font-weight: semi-bold;
   border: none;
-  
   margin-top: 16px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.445)  ;
   cursor: pointer;
+  
 }
 
 
@@ -361,6 +366,15 @@ gap: 60px;
   margin-bottom: 80px;
   
 }
+.s-link{
+  text-align: center;
+}
+
+.s-link p{
+  margin-bottom: 8px;
+}
+
+
 
 .copy-write{
   text-align: center;
