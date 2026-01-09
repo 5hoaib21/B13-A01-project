@@ -1,0 +1,156 @@
+/* shared class style  */
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* navigation bar style  */
+
+.nav-container{
+  padding: 16px 120px 16px 120px;
+  background-color: #FFFFFF;
+}
+
+.nav-container .nav-contant{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container .nav-contant ul{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  color: #000000;
+  list-style-type: none;
+}
+
+.nav-container .nav-contant ul li a{
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-btn{
+  width: 164px;
+  height:44px;
+  background-color: #469165;
+  color: #ffffff;
+  padding: 12px 16px 12px 16px;
+  border-radius: 4px;
+  font-weight: semibold;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+   border: none;      
+}
+
+
+.banner-container{
+  padding: 70px 120px 134px 120px;
+  width: 1600px;
+  height: 674px;
+  background-color: #FFFFFF;
+  background-image: url(./assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+.banner-container .banner-contant{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+.sub-one{
+  padding: 8px 12px 8px 12px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+ width: 229px;
+ height: 35px;
+ background-color: #FFFFFF;
+ gap: 7px;
+  border-radius: 40px;
+  margin-bottom: 16px;
+}
+
+
+.banner-text h1{
+ color: #FFFFFF;
+ font-weight: bold;
+ font-size:80px;
+ margin-bottom: 16px;
+}
+
+.banner-text h1 span{
+  color: #469165;
+}
+
+
+.sub-tow{
+ color: #FFFFFF;
+ font-size: 18px;
+ font-weight: regular;
+ text-align: center;
+ line-height: 24px;
+ margin-bottom: 32px;
+
+}
+
+
+
+.bnr-btn-green{
+  font-size: 16px;
+  font-weight: semi-bold;
+  width: 251px;
+  height:52px;
+  background-color: #469165;
+  color: #ffffff;
+  padding: 12px 16px 12px 16px;
+  border-radius: 6px;
+  gap: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.bnr-btn-clear{
+  font-size: 16px;
+  font-weight: semi-bold;
+  width: 198px;
+  height:52px;
+  background-color: transparent;
+  color: #FFFFFF;
+  padding: 12px 16px 12px 16px;
+  border: 2px solid #FFFFFF;
+  border-radius: 6px;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.banner-btn{
+  display: flex;
+  gap: 16px;
+}
+
+
+  
+
+
+
